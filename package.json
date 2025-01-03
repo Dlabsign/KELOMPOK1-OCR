@@ -1,0 +1,19 @@
+{
+  "name": "updated-working-teseract",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "This project is a web-based application using Tesseract OCR for text extraction and bounding box retrieval from images. It offers two main APIs:\r `/get-text`: Extracts the full text from an image.\r `/get-bboxes`: Extracts bounding boxes of specified types (word, line, paragraph, block, or page) from an image.",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "multer": "^1.4.5-lts.1",
+    "tesseract.js": "^5.1.1",
+    "updated-working-teseract": "file:"
+  }
+}

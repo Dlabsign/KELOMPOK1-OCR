@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tesseract OCR Server</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div  >
+        <h1>Olah Gambar Dengan OCR</h1>
+        <h4 style="font-weight: 400;" >Optical Character Recognition</h4>
+      </div>
+      <h2>Kelompok 1</h2>
+      <div
+        style="
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        "
+      >
+        <input type="file" id="image" accept="image/*" />
+      </div>
+      <button id="getTextBtn">Konversikan Gambar</button>
+      <h3>Output</h3>
+      <pre id="output"></pre>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
